@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <title>Wellness Wireless</title>
+      <link href="style.css" type="text/css" rel="stylesheet">
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script src="js/tabs.js"></script>
+      <script src="js/code.jquery.js"></script>
+      <script src="js/slides.min.jquery.js"></script>
+      <script src="js/script.js"></script>
+      <!--[if IE 9]>
+      <script>
+         document.createElement('header');
+         document.createElement('nav');
+         document.createElement('section');
+         document.createElement('article');
+         document.createElement('aside');
+         document.createElement('footer');
+      </script>
+      <![endif]-->
+      <!--[if IE 9]>
+      <style type="text/css">
+         .category li a {
+         font-size: 10px;
+         padding: 10px 26px 9px 25px;
+         }
+         .category .category-last a {
+         padding: 10px 33px 9px 33px;
+         }
+         .resource .tabs li {
+         font-size: 10px;
+         padding: 4px 5px;
+         }
+      </style>
+      <![endif]-->
+   </head>
+   <body>
+      <div id="wrapper">
+         <!--wrapper-->
+         <header class="header">
+            <!--header-->
+            <div class="logo-search">
+               <a class="logo" href="#"><img src="images/logo.png" alt="" /></a>
+               <div class="login-form">
+                  <span class="members-login">members login</span>
+                  <form action="login.php" method="post" id="enter">
+                     <div class="form-item">
+                        <span class="field"><input type="text" name="login" value="Login" onblur="if(this.value=='') this.value='Login';" onfocus="if(this.value=='Login') this.value='';" class="form-text"></span>
+                        <a href="#">Forgot Login</a>
+                     </div>
+                     <div class="form-item">
+                        <span class="field"><input type="text" name="password" value="Password" onblur="if(this.value=='') this.value='Password';" onfocus="if(this.value=='Password') this.value='';" class="form-text"></span>
+                        <a href="#">Forgot Password</a>
+                     </div>
+                     <div class="button">
+                        <input type="submit" value="Login" />
+                     </div>
+                  </form>
+               </div>
+            </div>
+            <nav class="menu-box">
+               <ul class="menu-box-left">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Diabetes in the News</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Ask An Expert</a></li>
+                  <li><a href="#">Contact Us</a></li>
+               </ul>
+               <ul class="menu-box-right">
+                  <li><a href="#">join</a></li>
+                  <li><a href="#">login</a></li>
+                  <li><a href="#">my account</a></li>
+               </ul>
+            </nav>
+            <ul class="category">
+               <li><a href="#">Who is it for?</a></li>
+               <li><a href="#">Membership Programs</a></li>
+               <li><a href="#">Wellness Products</a></li>
+               <li><a href="#">Video gallery</a></li>
+               <li><a href="#">Community</a></li>
+               <li><a href="#">FAQ</a></li>
+               <li class="category-last"><a href="#">Resource Center</a></li>
+            </ul>
+            <div class="menu-search-box">
+               <ul>
+                  <li><a href="#">Bookmark</a></li>
+                  <li><a href="#">Refer</a></li>
+                  <li><a href="#">Share</a></li>
+               </ul>
+               <form method="post" id="search">
+                  <input type="text" name="search" value="Search" onblur="if(this.value=='') this.value='Search';" onfocus="if(this.value=='Search') this.value='';" class="input" />
+                  <input class="login" type="submit" value="Login" />
+               </form>
+            </div>
+         </header>
+         <!--header end-->
+         <div id="content">
+            <!--content-->
+            <div id="slides">
+               <!--slider-->
+               <div class="slides_container">
+                  <div class="slider">
+                     <a class="phone" href="#"><img src="images/phone.png" alt=""></a>
+                     <div class="slide-text">
+                        <h2>Introduces the Future of</h2>
+                        <h1><a href="#">Mobile Health & Wellness</a></h1>
+                        <p>Get ready for 24/7 interactive access to medical, educational, nutritional and lifestyle resources, from anywhere, anytime!</p>
+                        <a class="getstarted" href="#"><img src="images/getstarted.png" alt=""></a>
+                        <a href="#"><span>Refer Someone</span></a>
+                     </div>
+                  </div>
+                  <div class="slider slider1">
+                     <a class="phone" href="#"><img src="images/phone.png" alt=""></a>
+                     <div class="slide-text">
+                        <h2>Introduces the Future of</h2>
+                        <h1><a href="#">Mobile Health & Wellness</a></h1>
+                        <p>Get ready for 24/7 interactive access to medical, educational, nutritional and lifestyle resources, from anywhere, anytime!</p>
+                        <a class="getstarted" href="#"><img src="images/getstarted.png" alt=""></a>
+                        <a href="#"><span>Refer Someone</span></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--slider end-->
+            <section id="middle">
+               <!--middle-->
+               <div class="resource">
+                  <!--resource-->
+                  <h2>Resource Center</h2>
+                  <div class="section">
+                     <!--section-->
+                     <ul class="tabs">
+                        <li class="current">Medical</li>
+                        <li>Education</li>
+                        <li>Terms</li>
+                        <li>Nutrition</li>
+                        <li>Life Style</li>
+                     </ul>
+                     <div class="box visible">
+                        <h2>Tip of the day</h2>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic1.jpg" alt="" /></a>
+                           <h3>Tips of the day title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="#">Related link titles goe here on this place holder</a>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic2.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part resource-part-last">
+                           <a href="#"><img src="images/resourcepic3.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                        </div>
+                     </div>
+                     <!---->
+                     <div class="box">
+                        <h2>Tip of the day</h2>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic2.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic1.jpg" alt="" /></a>
+                           <h3>Tips of the day title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="#">Related link titles goe here on this place holder</a>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part resource-part-last">
+                           <a href="#"><img src="images/resourcepic3.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                        </div>
+                     </div>
+                     <div class="box">
+                        <h2>Tip of the day</h2>
+                        <div class="resource-part resource-part-last">
+                           <a href="#"><img src="images/resourcepic3.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic2.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic1.jpg" alt="" /></a>
+                           <h3>Tips of the day title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="#">Related link titles goe here on this place holder</a>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                     </div>
+                     <div class="box">
+                        <h2>Tip of the day</h2>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic2.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part resource-part-last">
+                           <a href="#"><img src="images/resourcepic3.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic1.jpg" alt="" /></a>
+                           <h3>Tips of the day title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="#">Related link titles goe here on this place holder</a>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                     </div>
+                     <div class="box">
+                        <h2>Tip of the day</h2>
+                        <div class="resource-part resource-part-last">
+                           <a href="#"><img src="images/resourcepic3.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic2.jpg" alt="" /></a>
+                           <h3>Title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                        <div class="resource-part">
+                           <a href="#"><img src="images/resourcepic1.jpg" alt="" /></a>
+                           <h3>Tips of the day title goes  here on this place holder.</h3>
+                           <p>Small description goes here on this place.  Small description goes here on this place. The description goes here on this place. Small description goes here this place...</p>
+                           <a class="links" href="#">Related link titles goe here on this place holder</a>
+                           <a class="links" href="">Related link titles goe here on this place holder. Some tip goes here</a>
+                        </div>
+                     </div>
+                     <!---->
+                  </div>
+                  <!--section-->
+               </div>
+               <!--resource end-->
+               <div class="communicator-blogs">
+                  <!--communicator-blogs-->
+                  <div class="communicator">
+                     <h2>Communicator</h2>
+                     <a href="#"><img src="images/communicator.jpg" alt="" /></a>
+                     <a class="links" href="#">Title goes here on this place holder. some text goes here.</a>
+                     <a class="view-all" href="#">View All<img src="images/read-more-arrow.png" alt=""></a>
+                  </div>
+                  <div class="blogs">
+                     <h2>Blogs</h2>
+                     <span>08/31/2007</span>
+                     <a class="links" href="#">Article title goes here on this place holder. some text goes here.</a>
+                     <span>08/21/2007</span>
+                     <a class="links" href="#">Article title goes here on this place holder. some text goes here.</a>
+                     <span>08/14/2007</span>
+                     <a class="links" href="#">Article title goes here on this place holder. some text goes here.</a>	
+                     <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                  </div>
+               </div>
+               <!--communicator-blogs end-->
+               <div class="community-members">
+                  <!--community-members-->
+                  <div class="community-board">
+                     <h2>Community Board</h2>
+                     <h3>Board title goes here on this place holder</h3>
+                     <div class="text-block">
+                        <a href="#"><img src="images/text-block-img1.jpg" alt="" /></a>
+                        <p>Member’s message goes here on this place holder. Some text goes here.</p>
+                     </div>
+                     <div class="text-block">
+                        <a href="#"><img src="images/text-block-img2.jpg" alt="" /></a>
+                        <p>Member’s message goes here on this place holder. Some text goes here. Member’s message goes here on this place holder. Some text goes here.
+                        <p>
+                     </div>
+                     <a class="read-more" href="#">Read More<img src="images/read-more-arrow.png" alt=""></a>
+                  </div>
+                  <div class="members-experiences">
+                     <h2>Members experiences</h2>
+                     <div class="members-textblock">
+                        <a href="#"><img src="images/members-textblock-img1.jpg" alt="" /></a>
+                        <a class="links" href="#">Video Title Goes here on this place</a>
+                        <p>Some Description about this video goes here.</p>
+                     </div>
+                     <div class="members-textblock">
+                        <a href="#"><img src="images/members-textblock-img2.jpg" alt="" /></a>
+                        <a class="links" href="#">Video Title Goes here on this place</a>
+                        <p>Some Description about this video goes here on this place.</p>
+                     </div>
+                     <div class="members-textblock members-textblock-last">
+                        <a href="#"><img src="images/members-textblock-img3.jpg" alt="" /></a>
+                        <a class="links" href="#">Video Title Goes here on this place</a>
+                        <p>Some Description about this video goes here.</p>
+                     </div>
+                  </div>
+               </div>
+               <!--community-members end-->
+            </section>
+            <!--middle end-->
+         </div>
+         <!--content end-->
+         <div id="footer">
+            <!--footer-->
+            <ul class="footer-menu">
+               <li><a href="#">Who is it for?</a></li>
+               <li><a href="#">Membership Programs</a></li>
+               <li><a href="#">Wellness Products</a></li>
+               <li><a href="#">Video gallery</a></li>
+               <li><a href="#">Community Board</a></li>
+               <li><a href="#">FAQ</a></li>
+               <li><a href="#">Resource Center</a></li>
+            </ul>
+            <div class="footer-search-block">
+               <span>Be in the Know! Sign up to WellessWireless Weekly Newsletter:</span>
+               <form method="post" id="footer-search">
+                  <input type="text" name="email" value="Enter Your Email" onblur="if(this.value=='') this.value='Enter Your Email';" onfocus="if(this.value=='Enter Your Email') this.value='';" class="input" />
+                  <input class="login" type="submit" value="Login" />
+               </form>
+            </div>
+            <span class="copyright">Copyright 2005-2007 Wellness Wireless All Rights Reserved</span>
+         </div>
+         <!--footer end-->
+      </div>
+      <!--wrapper end-->
+   </body>
+</html>
